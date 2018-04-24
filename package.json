@@ -1,0 +1,35 @@
+{
+  "name": "portfoliotm",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracemcgraw/portfolioTM.git"
+  },
+  "author": "Trace McGraw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracemcgraw/portfolioTM/issues"
+  },
+  "homepage": "https://github.com/tracemcgraw/portfolioTM#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-filter": "^5.1.0",
+    "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.2.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}
