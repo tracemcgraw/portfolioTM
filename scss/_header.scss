@@ -1,7 +1,14 @@
-#jumbotron-heading{
-    font-size: 150px;
+header{
+    height: 700px;
 }
-#container1{
-    background-image: url('../assets/morning.jpeg');
-    background-repeat: no-repeat;
+.jumbotron{
+    background-image: url("../assets/streets.jpeg");
+    background-size: 100% 100%;
+}
+#jumbotron-heading{
+    font-size: 100px;
+    color: rgb(218, 218, 218);
+}
+#jobTitle{
+    color: rgb(218, 218, 218); 
 }

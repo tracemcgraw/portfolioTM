@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,52 +18,66 @@
     <link href="" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link href="./css/main.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body>
 
-    <!-- Navigation -->       
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">About</a></li>
-            <li><a href="#contact">Portfolio</a></li>
-            <li><a href="#about">Contact</a></li>
-        </ul>
-        <br />
-
+    <!-- Navigation -->
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#news">About</a>
+        </li>
+        <li>
+            <a href="#contact">Portfolio</a>
+        </li>
+        <li>
+            <a href="#about">Contact</a>
+        </li>
+    </ul>
     <!-- Header -->
     <header class="jumbotron text-center">
         <div class="container" id="container1">
+            <br/>
             <h1 id="jumbotron-heading">Trace McGraw</h1>
-            <h2>Juinor Developer</h2>
+            <br/>
+            <h2 id="jobTitle">Juinor Developer</h2>
             <p>
                 <a href="#" class="btn btn-primary">Press here for something.</a>
             </p>
-        </div> 
+        </div>
     </header>
 
     <!-- About -->
-    <section class="bg-primary text-white">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-white">About Me</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <p class="lead"></p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="lead"></p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="lead"></p>
+    <section id="about" class="bg-primary text-white">
+            <div class="container">
+                <h2 class="text-center text-uppercase text-white">About</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="lead">Use this to get started with talking about your abilities. Here you will showcase your work, share contact
+                                information, attract employers, and get practice with front end development! let's have some fun!Use this to get started with talking about your abilities. Here you will showcase your work, share contact
+                                information, attract employers, and get practice with front end development! let's have some fun!Use this to get started with talking about your abilities. Here you will showcase your work, share contact
+                                information, attract employers, and get practice with front end development! let's have some fun!Use this to get started with talking about your abilities. Here you will showcase your work, share contact
+                                information, attract employers, and get practice with front end development! let's have some fun!Use this to get started with talking about your abilities. Here you will showcase your work, share contact
+                                information, attract employers, and get practice with front end development! let's have some fun!Use this to get started with talking about your abilities. Here you will showcase your work, share contact
+                                information, attract employers, and get practice with front end development! let's have some fun!</p>
+                    </div>
+                    <div class="img-responsive" id="imgwrapper">
+                            <img class="img-fluid" src="../assets/tm.png" alt="" class="img-rounded">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-        
+        </section>
+
 
     <!-- Portfolio -->
-    <section>
+    <section id="projects">
+        <div class="container wow zoomIn">
             <div class="row">
                 <h2 class="text-center text-uppercase text-white">Portfolio</h2>
                 <div class="col-md-3">
@@ -118,6 +133,9 @@
                     </div>
                 </div>
             </div>
+
+        </div>
+
     </section>
 
     <!-- Contact -->
@@ -171,15 +189,20 @@
 
     <!-- Copyright -->
 
-    <!-- Modals --> 
+    <!-- Modals -->
 
     <!-- Scripts -->
 
     <!-- Bootstrap & JQuery Scripts -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- jQuery 3rd Party Scripts-->
+    <script src="node_modules/wowjs/dist/wow.min.js"></script>
+
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
