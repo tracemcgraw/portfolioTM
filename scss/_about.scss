@@ -1,12 +1,32 @@
-#about{
-    overflow: hidden;
-    height: 700px;
-    background-color: rgb(5, 33, 46);
+#aboutMe{
+    color: black;
+    text-align: left;
+    font-size: 30px;
 }
-#imgwrapper{
-    width: 40%;
-    float: right;
-    display: flex;
-    position: relative;
-    object-fit: fill;
+
+.headshot {
+    height: 27em;
+    border-color: gray;
+    border-radius: 3em;
+    align-content: center;
+    margin: auto;    
+    display: block;
 }
+
+#aboutSum{
+    font-size: 20px;
+}
+#quote{
+    font-size: 20px;
+    font-style: italic;
+}
+#quoteA{
+    font-size: 20px;
+    font-style: italic;
+}
+h1{
+    font-weight: bolder;
+}
+hr{
+    border: 1px solid rgb(230, 133, 23);
+ }
