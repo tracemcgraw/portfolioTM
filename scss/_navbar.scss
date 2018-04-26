@@ -1,6 +1,7 @@
 #navbar{
     position: fixed;
     width: 100%;
+    z-index: 1;
     
 }
 ul {
@@ -21,7 +22,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition:all 1.0s ease;
+    transition:all 0.8s ease;
 }
 
 li a:hover {

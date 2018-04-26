@@ -1,6 +1,7 @@
 #navbar {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
 
 ul {
   list-style-type: none;
@@ -18,7 +19,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: all 1.0s ease; }
+  transition: all 0.8s ease; }
 
 li a:hover {
   background: #e06f23;
@@ -59,7 +60,8 @@ header {
 
 .thumbnail {
   width: 300px;
-  background-size: cover; }
+  height: 400px;
+  z-index: 2; }
 
 #aboutMe {
   color: black;
@@ -100,7 +102,16 @@ hr {
 
 .containerContact {
   background-color: rgba(31, 102, 160, 0.952);
-  height: 600px; }
+  height: 800px; }
 
 label {
   color: white; }
+
+footer {
+  height: 100px;
+  background-color: black; }
+
+h3 {
+  float: left;
+  top: 100%;
+  bottom: 0; }
