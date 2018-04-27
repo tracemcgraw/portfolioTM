@@ -126,10 +126,10 @@ label {
 
 footer {
   height: 100px;
-  background-color: #0c1a5cee; }
+  background-color: #e08b44; }
 
 h3 {
   float: left;
   top: 100%;
   bottom: 0;
-  color: white; }
+  color: rgba(31, 102, 160, 0.952); }
