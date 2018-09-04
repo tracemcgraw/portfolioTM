@@ -2,8 +2,8 @@
     position: fixed;
     width: 100%;
     z-index: 1;
-    
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,10 +26,11 @@ li a {
 }
 
 li a:hover {
-    background:#e06f23;
+    // background:#e06f23;
+    background:blue;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none !important;
 }
